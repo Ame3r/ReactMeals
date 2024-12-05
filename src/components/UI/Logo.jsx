@@ -1,8 +1,8 @@
 import React from "react";
-// import styles from 
+import styles from "../../styles/components/UI/logo.module.css"
 const Logo = () => {
     return(
-        <a href="/">ReactMeals</a>
+        <a className={styles.a} href="/">ReactMeals</a>
     )
 }
 
