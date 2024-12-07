@@ -1,1 +1,10 @@
-/*# sourceMappingURL=Header.module.css.map */
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.meal-image img {
+  transform: rotate(90deg);
+  width: auto;
+  height: 200px;
+}/*# sourceMappingURL=Header.module.css.map */
