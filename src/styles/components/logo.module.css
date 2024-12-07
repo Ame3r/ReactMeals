@@ -1,4 +1,8 @@
-.a {
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+.logo span {
   font-size: 2rem;
   text-decoration: none;
 }/*# sourceMappingURL=logo.module.css.map */
