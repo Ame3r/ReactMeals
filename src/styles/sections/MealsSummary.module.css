@@ -1,9 +1,15 @@
 .summary {
-  font: inherit;
   color: white;
   background-color: rgb(56, 56, 56);
+  margin: auto;
   border-radius: 14px;
-  width: 90%;
-  padding: 2.5rem;
-  place-items: center;
+  margin-top: -10rem;
+  position: relative;
+  max-width: 45rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.5);
+}
+.summary h2 {
+  font-size: 2rem;
 }/*# sourceMappingURL=MealsSummary.module.css.map */

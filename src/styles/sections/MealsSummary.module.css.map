@@ -1,1 +1,1 @@
-{"version":3,"sources":["MealsSummary.module.scss","../abstract/_colors.scss","MealsSummary.module.css"],"names":[],"mappings":"AAEA;EACI,aAAA;EACA,YAAA;EACA,iCCEsB;EDDtB,mBAAA;EACA,UAAA;EAEA,eAAA;EACA,mBAAA;AEFJ","file":"MealsSummary.module.css"}
+{"version":3,"sources":["MealsSummary.module.scss","../abstract/_colors.scss","MealsSummary.module.css"],"names":[],"mappings":"AAEA;EACI,YAAA;EACA,iCCGsB;EDFtB,YAAA;EACA,mBAAA;EACA,kBAAA;EACA,kBAAA;EACA,gBAAA;EACA,aAAA;EACA,kBAAA;EACC,2CAAA;AEDL;AFEC;EACG,eAAA;AEAJ","file":"MealsSummary.module.css"}
