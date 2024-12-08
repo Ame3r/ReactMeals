@@ -1,0 +1,18 @@
+@use "../abstract/colors";
+.btn {
+	cursor: pointer;
+    display: flex;
+    font: inherit;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    color: colors.$off-white;
+    background-color: colors.$button-background;
+    border-radius: 25px;
+    padding: 0.75rem 3rem;
+    border: none;
+ &:hover{
+    background-color: green 0.5s ease;
+ }
+}
+

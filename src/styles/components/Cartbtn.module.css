@@ -1,0 +1,16 @@
+.btn {
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(207, 206, 206);
+  background-color: rgb(77, 22, 1);
+  border-radius: 25px;
+  padding: 0.75rem 3rem;
+  border: none;
+}
+.btn:hover {
+  background-color: green 0.5s ease;
+}/*# sourceMappingURL=Cartbtn.module.css.map */
