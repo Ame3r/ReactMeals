@@ -23,5 +23,5 @@
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
-  transform: rotateZ(-5 deg) translateY(-4rem) translateX(-1rem);
+  transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }/*# sourceMappingURL=Header.module.css.map */

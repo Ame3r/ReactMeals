@@ -1,0 +1,9 @@
+.summary {
+  font: inherit;
+  color: white;
+  background-color: rgb(56, 56, 56);
+  border-radius: 14px;
+  width: 90%;
+  padding: 2.5rem;
+  place-items: center;
+}/*# sourceMappingURL=MealsSummary.module.css.map */

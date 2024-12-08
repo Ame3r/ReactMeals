@@ -1,0 +1,12 @@
+@use "../abstract/colors";
+
+.summary{
+    font: inherit;
+    color: white;
+    background-color: colors.$MealsSummary-background;
+    border-radius: 14px;
+    width: 90%;
+    // text-align: center;
+    padding: 2.5rem
+    place-items: center;
+}
