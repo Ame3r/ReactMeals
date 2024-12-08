@@ -12,4 +12,8 @@
 }
 .summary h2 {
   font-size: 2rem;
+}
+.summary p {
+  color: rgb(207, 206, 206);
+  margin: 1rem 0;
 }/*# sourceMappingURL=MealsSummary.module.css.map */
