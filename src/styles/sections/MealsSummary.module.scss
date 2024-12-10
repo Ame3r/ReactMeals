@@ -1,0 +1,22 @@
+@use "../abstract/colors";
+@import "../themes/mixins";
+
+.summary {
+	color: white;
+	background-color: colors.$MealsSummary-background;
+	margin: auto;
+	margin-top: -10rem;
+	position: relative;
+	max-width: 45rem;
+	padding: 1rem;
+	text-align: center;
+	@include roundedShadow;
+
+	h2 {
+		font-size: 2rem;
+	}
+	p {
+		color: colors.$off-white;
+		margin: 1rem 0;
+	}
+}

@@ -1,0 +1,21 @@
+@use "../abstract/colors";
+
+.meal {
+	display: flex;
+	border-bottom: 1px solid colors.$off-white;
+	margin: 0.8rem;
+	div{
+		margin-bottom: 0.5rem;
+	}
+}
+
+.description {
+	font-style: italic;
+    padding: 0.2rem 0;
+}
+
+.price {
+	color: colors.$badge-background;
+	font-size: 1.1rem;
+	font-weight: bold;
+}

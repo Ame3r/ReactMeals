@@ -1,0 +1,19 @@
+.summary {
+  color: white;
+  background-color: rgb(56, 56, 56);
+  margin: auto;
+  margin-top: -10rem;
+  position: relative;
+  max-width: 45rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.5);
+}
+.summary h2 {
+  font-size: 2rem;
+}
+.summary p {
+  color: rgb(207, 206, 206);
+  margin: 1rem 0;
+}/*# sourceMappingURL=MealsSummary.module.css.map */

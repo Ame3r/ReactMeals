@@ -1,0 +1,12 @@
+@use "../abstract/colors";
+@import "../themes/mixins";
+
+.card {
+    margin: auto;
+	background-color: white;
+	max-width: 65%;
+    padding: 1rem;
+	margin-top: 1.7rem;
+	@include roundedShadow;
+    
+}
