@@ -6,18 +6,16 @@ import Card from "../UI/Card";
 const MealsAvailable = () => {
     return (
 			<section>
-				<ul>
 					<Card>
 						{DUMMY_MEALS.map((meal) => (
 							<MealItem
-								key={meal.key}
+								key={meal.id}
 								name={meal.name}
 								description={meal.description}
 								price={meal.price}
 							></MealItem>
 						))}
 					</Card>
-				</ul>
 			</section>
 		);
 }
