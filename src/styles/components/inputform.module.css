@@ -1,9 +1,15 @@
 .input {
-  border: 1px solid green;
   font-weight: 800;
+}
+.input label {
+  margin-right: 1rem;
 }
 .input input {
   font-style: inherit;
+  text-align: center;
   font-weight: bold;
-  width: 2rem;
+  width: 3rem;
+  border: 1px solid rgb(207, 206, 206);
+  border-radius: 20px;
+  padding-left: 0.5rem;
 }/*# sourceMappingURL=inputform.module.css.map */

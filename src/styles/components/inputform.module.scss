@@ -1,10 +1,17 @@
-.input{
-    border: 1px solid green;
-    font-weight: 800;
-    
-    input{
-        font-style: inherit;
-        font-weight: bold;
-        width: 2rem;
-    }
+@use "../abstract/colors";
+
+.input {
+	font-weight: 800;
+	label {
+		margin-right: 1rem;
+	}
+	input {
+		font-style: inherit;
+		text-align: center;
+		font-weight: bold;
+		width: 3rem;
+        border: 1px solid colors.$off-white;
+        border-radius: 20px;
+        padding-left: 0.5rem;
+	}
 }
