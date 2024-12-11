@@ -1,0 +1,19 @@
+@use "../abstract/colors";
+
+.form {
+    text-align: right;
+
+button{
+    background-color: colors.$header-color;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid colors.$header-color;
+    font: inherit;
+    font-weight: bold;
+    padding: 0.25rem 2rem;
+    &:hover,:active{
+        background-color: colors.$add-btn-hover;
+    }
+}
+}

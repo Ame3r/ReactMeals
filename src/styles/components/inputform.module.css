@@ -1,0 +1,9 @@
+.input {
+  border: 1px solid green;
+  font-weight: 800;
+}
+.input input {
+  font-style: inherit;
+  font-weight: bold;
+  width: 2rem;
+}/*# sourceMappingURL=inputform.module.css.map */
