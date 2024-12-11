@@ -3,6 +3,7 @@
 .meal {
 	display: flex;
 	border-bottom: 1px solid colors.$off-white;
+	justify-content: space-between;
 	margin: 0.8rem;
 	div{
 		margin-bottom: 0.5rem;
@@ -11,6 +12,7 @@
 
 .description {
 	font-style: italic;
+	font-weight: 550;
     padding: 0.2rem 0;
 }
 
