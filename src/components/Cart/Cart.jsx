@@ -1,8 +1,10 @@
 import React from "react";
+import styles from "../../styles/components/cart.module.css";
 import Modal from "../UI/Modal";
+
 const Cart = (props) => {
 	const cartItems = (
-		<ul>
+		<>
 			{[
 				{
 					id: "m1",
@@ -11,10 +13,11 @@ const Cart = (props) => {
 					price: 22.0,
 				},
 			].map((item) => (
-				<li>{item.name}</li>
+				<ul>{item.name}</ul>
 			))}
-		</ul>
+		</>
 	);
+
 	return (
 		<Modal>
 			{cartItems}

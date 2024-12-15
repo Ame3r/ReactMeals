@@ -7,10 +7,10 @@ import "./styles/App.css";
 function App() {
 	return (
 		<>
-			<Header />
-			<Cart />
+			<Header/>
+			<Cart/>
 			<main>
-				<Meals />
+				<Meals/>
 			</main>
 		</>
 	);

@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import styles from "../../styles/components/modal.module.css";
+import Card from "./Card";
 
 const Backdrop = () => {
 	return <div className={styles.backdrop} />;
@@ -14,7 +15,7 @@ const ModalOverlay = (props) => {
 	);
 };
 
-portalElement = document.getElementById("overlays");
+const portalElement = document.getElementById("overlays");
 
 const Modal = (props) => {
 	return (
