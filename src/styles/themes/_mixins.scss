@@ -4,3 +4,16 @@
 	border-radius: 14px;
 	box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.5);
 }
+
+
+@mixin button-theme {
+	 cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid colors.$header-color;
+    font: inherit;
+    font-weight: bold;
+    padding: 0.25rem 2rem;
+    &:hover,:active{
+        background-color: colors.$add-btn-hover;
+    }
+}
