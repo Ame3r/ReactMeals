@@ -18,19 +18,18 @@ const Cart = (props) => {
 		</>
 	);
 
-    const closeCartHandler = () => {
-        props.onClickCloseBtn();
-    }
-
 	return (
-		<Modal onClickBackdrop={closeCartHandler}>
+		<Modal onClickBackdrop={props.onClickCloseBtn}>
 			{cartItems}
 			<div className={styles.total}>
 				<span>Total Amount</span>
 				<span>39.72</span>
 			</div>
 			<div className={styles.actions}>
-				<button onClick={closeCartHandler} className={styles["button--alt"]}>
+				<button
+					onClick={props.onClickCloseBtn}
+					className={styles["button--alt"]}
+				>
 					Close
 				</button>
 				<button className={styles.button}>Order</button>
