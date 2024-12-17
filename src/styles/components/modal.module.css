@@ -1,3 +1,65 @@
+@keyframes cart-modal-bump {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  25% {
+    transform: translate(-50%, -30%);
+  }
+  50% {
+    transform: translate(-50%, -20%);
+  }
+  75% {
+    transform: translate(-50%, -10%);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-50%);
+  }
+  25% {
+    transform: translateX(-30%);
+  }
+  50% {
+    transform: translateX(-20%);
+  }
+  75% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes card-bump {
+  0% {
+    transform: translateY(50%);
+  }
+  25% {
+    transform: translateY(30%);
+  }
+  50% {
+    transform: translateY(20%);
+  }
+  75% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 .backdrop {
   position: fixed;
   z-index: 2;
@@ -9,13 +71,14 @@
 .modal {
   z-index: 3;
   position: fixed;
-  width: 100%;
-  height: 100%;
+  top: 30%;
+  left: 50%;
+  animation: cart-modal-bump 0.3s ease-in;
+  transform: translateX(-50%);
 }
 .modal .content {
   padding: 1.5rem;
   margin: auto;
-  margin-top: 10rem;
   width: 45vw;
   background-color: white;
   border-radius: 14px;
