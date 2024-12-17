@@ -18,6 +18,10 @@ const Cart = (props) => {
 		</>
 	);
 
+    const closeCartHandler = e => {
+        props.onClickCloseBtn();
+    }
+
 	return (
 		<Modal>
 			{cartItems}
@@ -26,7 +30,7 @@ const Cart = (props) => {
 				<span>39.72</span>
 			</div>
 			<div className={styles.actions}>
-				<button className={styles["button--alt"]}>Close</button>
+				<button onClick= {closeCartHandler} className={styles["button--alt"]}>Close</button>
 				<button className={styles.button}>Order</button>
 			</div>
 		</Modal>
