@@ -7,7 +7,7 @@ const Header = () => {
 	return (
 		<>
 			<header className={styles.header}>
-                <Logo/>
+                <Logo/> 
                 <CartBtn/>
             </header>
             <div className={styles['meal-image']}>
