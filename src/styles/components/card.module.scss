@@ -1,5 +1,6 @@
 @use "../abstract/colors";
 @import "../themes/mixins";
+@import "../abstract/animation";
 
 .card {
     margin: auto;
@@ -8,5 +9,5 @@
     padding: 1rem;
 	margin-top: 1.7rem;
 	@include roundedShadow;
-    
+    animation: card-bump 0.4s ease-in;
 }

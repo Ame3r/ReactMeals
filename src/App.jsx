@@ -5,7 +5,7 @@ import Cart from "./components/Cart/Cart";
 import "./styles/App.css";
 
 function App() {
-	const [showCart, setShowCart] = useState(true);
+	const [showCart, setShowCart] = useState(false);
 	
 	const showCartHandler  = () => {
 		setShowCart(true);
@@ -15,10 +15,12 @@ function App() {
 	}
 	return (
 		<>
-			<Header onClickCartBtn={showCartHandler} />
+			<Header
+				onClickCartBtn={showCartHandler}
+			/>
 			{showCart && <Cart onClickCloseBtn={closeCartHandler} />}
 			<main>
-				<Meals/>
+				<Meals />
 			</main>
 		</>
 	);

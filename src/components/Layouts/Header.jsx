@@ -3,16 +3,17 @@ import styles from "../../styles/layouts/Header.module.css"
 import MealsImage from "../../assets/meals.jpg";
 import Logo from "../UI/logo";
 import CartBtn from "./CartBtn";
-const Header = () => {
+
+const Header = (props) => {
 	return (
 		<>
 			<header className={styles.header}>
-                <Logo/> 
-                <CartBtn/>
-            </header>
-            <div className={styles['meal-image']}>
-                <img src={MealsImage} alt="A table full of delicious meals" />
-            </div>
+				<Logo />
+				<CartBtn onClickCartBtn={props.onClickCartBtn} />
+			</header>
+			<div className={styles["meal-image"]}>
+				<img src={MealsImage} alt="A table full of delicious meals" />
+			</div>
 		</>
 	);
 };
