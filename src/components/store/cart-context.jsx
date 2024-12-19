@@ -3,8 +3,8 @@ import React, { useReducer, createContext } from "react";
 export const CartContext = createContext({
     items: [],
     totalAmount: 0,
-    addItem: (item) => { },
-    removeItem: (id) => { },
+    addItems: (item) => { },
+    removeItems: (id) => { },
 });
 
 const defaultCartState = {
@@ -17,7 +17,7 @@ const cartReducer = (state, action) => {
         const updatedItem = state.items.concat(action.item);
         const updatedTotalAmount = state.totalAmount + (action.item.price * action.item.amount)
         return {
-            item : updatedItem,
+            items : updatedItem,
             totalAmount: updatedTotalAmount,
         }
     }
