@@ -18,13 +18,13 @@ const Cart = (props) => {
 	// 		))}
 	// 	</>
 	// );
-    const {items, totalAmount} = useContext(CartContext);
+    const cartCtx = useContext(CartContext);
 	return (
 		<Modal onClickBackdrop={props.onClickCloseBtn}>
-			{items}
+			{cartCtx.items}
 			<div className={styles.total}>
 				<span>Total Amount</span>
-				<span>{totalAmount}</span>
+				<span>{cartCtx.totalAmount}</span>
 			</div>
 			<div className={styles.actions}>
 				<button
