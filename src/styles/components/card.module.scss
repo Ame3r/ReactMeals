@@ -3,11 +3,17 @@
 @import "../abstract/animation";
 
 .card {
-    margin: auto;
+	margin: auto;
 	background-color: white;
 	max-width: 65%;
-    padding: 1rem;
+	padding: 1rem;
 	margin-top: 1.7rem;
 	@include roundedShadow;
-    animation: card-bump 0.4s ease-in;
+	animation: card-bump 0.4s ease-in;
+}
+
+@media screen and (max-width: 700px) {
+	.card{
+	max-width: 90%;
+}
 }

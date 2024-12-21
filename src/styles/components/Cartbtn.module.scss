@@ -1,35 +1,60 @@
 @use "../abstract/colors";
 .btn {
 	cursor: pointer;
-    display: flex;
-    font: inherit;
-    justify-content: space-around;
-    align-items: center;
-    font-weight: bold;
-    color: colors.$off-white;
-    background-color: colors.$button-background;
-    border-radius: 25px;
-    padding: 0.75rem 2.5rem;
-    border: none;
- &:hover,:active{
-    background-color: colors.$button-hover;
- }
+	display: flex;
+	font: inherit;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bold;
+	color: colors.$off-white;
+	background-color: colors.$button-background;
+	border-radius: 25px;
+	padding: 0.75rem 2.5rem;
+	border: none;
+	&:hover,
+	:active {
+		background-color: colors.$button-hover;
+	}
 }
 
-.icon{
-   height: 1.35rem;
-   width: 1.35rem;
-   margin-right: 0.7rem;
-   margin-bottom: 0.3rem;
+.icon {
+	height: 1.35rem;
+	width: 1.35rem;
+	margin-right: 0.7rem;
+	margin-bottom: 0.3rem;
 }
 
-.badge{
-   background-color: colors.$badge-background;
-   padding: 0.25rem 1rem;
-   border-radius: 25px;
-   margin-left: 0.9rem;
-   
-   &:hover,:active{
-      background-color: colors.$badge-hover;
-   }
+.badge {
+	background-color: colors.$badge-background;
+	padding: 0.25rem 1rem;
+	border-radius: 25px;
+	margin-left: 0.9rem;
+
+	&:hover,
+	:active {
+		background-color: colors.$badge-hover;
+	}
+}
+
+@media screen and (max-width: 700px) {
+    .btn {
+        height: 3.5rem;
+        width: fit-content;
+        margin-left: 0.5rem;
+        padding: 0.5rem 0.5rem;
+        font-size: 0.9rem;
+        justify-content: center;
+    }
+
+    .icon {
+        height: 1.2rem;
+        width: 1.2rem;
+        margin-right: 0.5rem;
+    }
+
+    .badge {
+        padding: 0.2rem 0.8rem;
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+    }
 }
