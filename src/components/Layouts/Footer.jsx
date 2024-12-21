@@ -48,7 +48,7 @@ const Footer = () => {
 			</div>
 			<div className={styles["footer-bottom"]}>
 				<p>
-					&copy; {new Date().getFullYear()} Your Company Name. All rights
+					&copy; 2024 V0iD All rights
 					reserved.
 				</p>
 			</div>
