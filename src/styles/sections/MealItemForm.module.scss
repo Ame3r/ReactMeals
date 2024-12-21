@@ -2,11 +2,14 @@
 @import "../themes/mixins";
 
 .form {
-    text-align: right;
+	text-align: right;
 
-button{
-    background-color: colors.$header-color;
-    color: white;
-   @include button-theme;
+	button {
+		background-color: colors.$header-color;
+		color: white;
+          white-space: nowrap; 
+		@include button-theme;
+	}
 }
-}
+
+

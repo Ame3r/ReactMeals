@@ -11,7 +11,8 @@
   padding: 0.75rem 2.5rem;
   border: none;
 }
-.btn:hover, .btn :active {
+.btn:hover,
+.btn :active {
   background-color: rgb(44, 13, 0);
 }
 
@@ -28,6 +29,27 @@
   border-radius: 25px;
   margin-left: 0.9rem;
 }
-.badge:hover, .badge :active {
+.badge:hover,
+.badge :active {
   background-color: rgb(146, 50, 12);
+}
+
+@media screen and (max-width: 700px) {
+  .btn {
+    height: 3.5rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  .icon {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  .badge {
+    padding: 0.2rem 0.8rem;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
 }/*# sourceMappingURL=Cartbtn.module.css.map */
