@@ -1,0 +1,50 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(185, 69, 23);
+  margin-top: 1rem;
+}
+
+.cart-items {
+  display: block;
+  margin-bottom: 1rem;
+}
+.cart-items .summary {
+  display: flex;
+}
+.cart-items .summary .price {
+  margin-right: 4rem;
+  color: rgb(185, 69, 23);
+  font-weight: bold;
+}
+.cart-items .summary .amount {
+  font-style: inherit;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  width: 2.3rem;
+  border: 1px solid rgb(207, 206, 206);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: rgb(138, 43, 6);
+  border-radius: 6px;
+  border: 1px solid rgb(138, 43, 6);
+  font-weight: bold;
+  width: 3rem;
+  margin-right: 0.5rem;
+  background-color: white;
+  padding: 0.1rem;
+}
+.actions button:hover,
+.actions button :active {
+  color: white;
+  background-color: rgb(100, 30, 3);
+}/*# sourceMappingURL=CartItem.module.css.map */

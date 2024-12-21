@@ -41,7 +41,7 @@ const MealItemForm = (props) => {
 						fontWeight: "500",
 					}}
 				>
-					Please enter a value from 1 to 10.
+					Please enter a value from 1 to 10
 				</p>
 			)}
 		</form>

@@ -71,14 +71,18 @@
 .modal {
   z-index: 3;
   position: fixed;
-  top: 30%;
+  top: 25%;
   left: 50%;
+  margin-bottom: 2rem;
   animation: cart-modal-bump 0.3s ease-in;
   transform: translateX(-50%);
 }
 .modal .content {
   padding: 1.5rem;
   margin: auto;
+  max-height: 70vh;
+  scrollbar-width: none;
+  overflow-y: auto;
   width: 45vw;
   background-color: white;
   border-radius: 14px;

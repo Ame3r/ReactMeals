@@ -1,0 +1,54 @@
+@use "../abstract/colors";
+@import "../themes/mixins";
+
+li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid colors.$badge-background;
+	margin-top: 1rem;
+}
+.cart-items {
+	display: block;
+	margin-bottom: 1rem;
+	.summary {
+		display: flex;
+		.price {
+			margin-right: 4rem;
+			color: colors.$badge-background;
+			font-weight: bold;
+		}
+		.amount {
+			font-style: inherit;
+			text-align: center;
+			font-weight: bold;
+			border-radius: 6px;
+			width: 2.3rem;
+			border: 1px solid colors.$off-white;
+		}
+	}
+}
+
+.actions {
+	display: flex;
+	justify-content: flex-end;
+
+	button {
+		font: inherit;
+		cursor: pointer;
+		color: colors.$header-color;
+		border-radius: 6px;
+		border: 1px solid colors.$header-color;
+		font-weight: bold;
+		width: 3rem;
+        margin-right: 0.5rem;
+		background-color: white;
+		padding: 0.1rem;
+
+		&:hover,
+		:active {
+            color:white;
+			background-color: colors.$add-btn-hover;
+		}
+	}
+}
