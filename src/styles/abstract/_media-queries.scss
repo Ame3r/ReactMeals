@@ -1,0 +1,52 @@
+@mixin modal-media-query {
+	@media screen and (max-width: 700px) {
+		.modal {
+			width: 100%;
+			.content {
+				width: 90%;
+				max-height: 60vh;
+			}
+		}
+	}
+}
+
+@mixin InputForm-media-query {
+	@media screen and (max-width: 700px) {
+		.input {
+			input {
+				padding-left: 0;
+			}
+		}
+	}
+}
+
+@mixin CartBtn-media-query {
+	@media screen and (max-width: 700px) {
+		.btn {
+			height: 3.5rem;
+			width: fit-content;
+			margin-left: 0.5rem;
+			padding: 0.5rem 1rem;
+			font-size: 0.9rem;
+		}
+
+		.icon {
+			height: 1.2rem;
+			width: 1.2rem;
+		}
+
+		.badge {
+			padding: 0.2rem 0.8rem;
+			font-size: 0.8rem;
+			margin-left: 0.5rem;
+		}
+	}
+}
+
+@mixin Header-media-query {
+	@media screen and (max-width: 700px) {
+		.header {
+			padding: 0 1%;
+		}
+	}
+}

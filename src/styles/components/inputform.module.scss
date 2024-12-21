@@ -1,4 +1,5 @@
 @use "../abstract/colors";
+@import "../abstract/media-queries";
 
 .input {
 	font-weight: 800;
@@ -16,10 +17,4 @@
 	}
 }
 
-@media screen and (max-width: 700px) {
-	.input {
-		input{
-			 padding-left: 0;
-		}
-	}
-}
+@include InputForm-media-query;

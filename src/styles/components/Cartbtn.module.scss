@@ -1,4 +1,6 @@
 @use "../abstract/colors";
+@import "../abstract/_media-queries";
+
 .btn {
 	cursor: pointer;
 	display: flex;
@@ -36,24 +38,4 @@
 	}
 }
 
-@media screen and (max-width: 700px) {
-    .btn {
-        height: 3.5rem;
-        width: fit-content;
-        margin-left: 0.5rem;
-        padding: 0.5rem 1rem;
-        font-size: 0.9rem;
-
-    }
-
-    .icon {
-        height: 1.2rem;
-        width: 1.2rem;
-    }
-
-    .badge {
-        padding: 0.2rem 0.8rem;
-        font-size: 0.8rem;
-        margin-left: 0.5rem;
-    }
-}
+@include CartBtn-media-query;
