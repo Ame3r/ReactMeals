@@ -4,6 +4,7 @@
 .form button {
   background-color: rgb(138, 43, 6);
   color: white;
+  white-space: nowrap;
   cursor: pointer;
   border-radius: 20px;
   border: 1px solid rgb(138, 43, 6);

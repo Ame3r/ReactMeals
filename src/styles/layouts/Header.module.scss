@@ -28,3 +28,11 @@
 		transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 	}
 }
+
+
+@media screen and (max-width: 700px) {
+	.header{
+		padding:0 1%;
+	
+}
+}

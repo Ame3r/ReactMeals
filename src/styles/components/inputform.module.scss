@@ -15,3 +15,11 @@
         padding-left: 0.8rem;
 	}
 }
+
+@media screen and (max-width: 700px) {
+	.input {
+		input{
+			 padding-left: 0;
+		}
+	}
+}

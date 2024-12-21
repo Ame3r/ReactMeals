@@ -40,14 +40,12 @@
     width: -moz-fit-content;
     width: fit-content;
     margin-left: 0.5rem;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
     font-size: 0.9rem;
-    justify-content: center;
   }
   .icon {
     height: 1.2rem;
     width: 1.2rem;
-    margin-right: 0.5rem;
   }
   .badge {
     padding: 0.2rem 0.8rem;
