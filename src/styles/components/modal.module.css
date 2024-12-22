@@ -73,7 +73,6 @@
   position: fixed;
   top: 25%;
   left: 50%;
-  width: 100%;
   margin-bottom: 2rem;
   animation: cart-modal-bump 0.3s ease-in;
   transform: translateX(-50%);
@@ -91,6 +90,9 @@
 }
 
 @media screen and (max-width: 700px) {
+  .modal {
+    width: 100%;
+  }
   .modal .content {
     width: 90%;
     max-height: 60vh;

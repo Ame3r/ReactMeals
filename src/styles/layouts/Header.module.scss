@@ -1,5 +1,6 @@
 @use "../abstract/colors";
 @import "../abstract/animation";
+@import "../abstract/media-queries";
 
 .header {
 	display: flex;
@@ -30,9 +31,4 @@
 }
 
 
-@media screen and (max-width: 700px) {
-	.header{
-		padding:0 1%;
-	
-}
-}
+@include Header-media-query;
